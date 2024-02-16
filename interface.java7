@@ -1,0 +1,6 @@
+ interface printable{  
+	 void print();  
+	  
+	}
+	
+class   
