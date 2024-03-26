@@ -1,0 +1,4 @@
+
+conversion of higher size data type into the smaller datatype:
+int 32byte;
+short
