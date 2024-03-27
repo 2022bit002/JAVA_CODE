@@ -1,4 +1,15 @@
 
 conversion of higher size data type into the smaller datatype:
-int 32byte;
-short
+int 4byte  32bit;
+short 2byte 16bit;
+long 8byte 64bit;
+
+question:  short a = (short)9042024;
+
+
+step 1 :   9042024/short size(2^16);
+step 2 :   9042024 - answer*2^16;
+step 3 :   answer - 2^16;
+step 4 : we will get the required answer
+
+
