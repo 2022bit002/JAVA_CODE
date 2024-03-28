@@ -1,4 +1,4 @@
-//  Questation : why if we print the object it gives output in the form of classname@hexcode  ?
+//  Question : why if we print the object it gives output in the form of classname@hexcode  ?
 //  Answer : has object class is supreme class and it by default provide the toString method which is inherited by Object class which gives result in above form.
 //  
 //  TIP : if we want to change the output then we have to override the toString method and then we can give name as we need.  
