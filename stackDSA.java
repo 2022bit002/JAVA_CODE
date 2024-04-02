@@ -14,6 +14,10 @@ class stack{
 		result=s.empty();
 		System.out.println("is the stack empty \n"+result);
 		System.out.println("the element in the stack are :  \n"+s);
+		System.out.println("stack after pop");
+		s.pop();
+		s.pop();
+		System.out.println(s);
 		
 	}
 }
