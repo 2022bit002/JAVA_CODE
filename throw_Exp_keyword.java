@@ -1,8 +1,9 @@
 class throw_Keyword{
 	public static void main(String ...args) throws InterruptedException {
 		try{
-		Thread.sleep(1000);
 		System.out.println(args[0]);
+		Thread.sleep(1000);
+		
 	
 		}
 		catch(ArrayIndexOutOfBoundsException a ){
