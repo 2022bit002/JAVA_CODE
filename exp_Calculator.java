@@ -50,13 +50,25 @@ class engineeringCalci {
     r = p * p;
     return r; 
   }
+  
+  public static double sin(double p){
+	double q = Math.sin(p);
+	return q;  
+  }
+  
+  public static double cos(double p){
+	double q = Math.cos(p);
+	return q;  
+  }
 
   public static void main(String args[]) throws Exception{
 
     engineeringCalci c = new engineeringCalci();
-    System.out.println(div (2312,05));
+    System.out.println(div (2312,0));
     System.out.println(mul(-12,2));
     System.out.println(mod(1232,33));
+    System.out.println(sin(1.58));
+     System.out.println(cos(1.5));
 
   }
 
