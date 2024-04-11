@@ -1,11 +1,14 @@
 class except{
 	public static void main(String args[]){
-		int [] arr={343,785,635};
+		int [] arr={};
 		try{
 			int a = arr[1];
 			System.out.println(a);
 		}
 		catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("it is an out of bounds exception");
+		}
+		catch(Exception e){
 			System.out.println("it is an out of bounds exception");
 		}
 		finally{
