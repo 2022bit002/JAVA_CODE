@@ -29,3 +29,31 @@ class outerclass{
 	
 	
 }
+
+
+class aim{
+	static {
+		System.out.println("this is outer class static block");
+	}
+
+	class insideAim{
+		static {
+		System.out.println("this is inner class static block");
+	}
+	{
+		System.out.println("this is outer class init block");
+	
+	}
+	public static void main(String args[]){
+		System.out.println("main of inner class");
+	}
+	}
+	
+	public static void main(String args[]){
+		aim a = new aim();
+		insideAim e = a.new insideAim();
+		String an[] ={};
+		e.main(an);
+	}
+
+}
